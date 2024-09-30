@@ -13,7 +13,7 @@ interface CommentsProps {
       userImagePath: string;
       username: string;
       replyText: string;
-      likeNum: number;
+      likeNum: number |any;
   }
   export type { ReplyProps };
   

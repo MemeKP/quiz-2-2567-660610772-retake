@@ -25,7 +25,7 @@ export default function Home() {
         className="mx-auto p-3 rounded rounded-3 shadow-sm bg-white"
       >
         {/* Post Owner Example */}
-        <PostOwnner {...postOwnerData} /> {/* Use the correct component and data object */}
+        <PostOwnner {...postOwnerData} /> 
 
         {/* Comment Section */}
         {Comments.map((comment: CommentsProps, index) => (
