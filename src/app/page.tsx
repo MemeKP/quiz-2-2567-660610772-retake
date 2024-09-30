@@ -32,11 +32,11 @@ export default function Home() {
           <div key={index}>
             {/* Render Comment with replies */}
             <Comment
-              userImagePath={comment.userImagePath}
               username={comment.username}
+              userImagePath={comment.userImagePath}
               commentText={comment.commentText}
               likeNum={comment.likeNum}
-              replies={comment.replies} // ส่ง replies เข้าสู่ Comment
+              replies={comment.replies} 
             />
           </div>
         ))}

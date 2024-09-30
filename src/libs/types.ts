@@ -5,7 +5,7 @@ interface CommentsProps {
     username: string;
     commentText: string;
     likeNum: number;
-    replies: ReplyProps[];
+    replies: ReplyProps[] | any;
   }
   export type {CommentsProps};
   
